@@ -28,7 +28,7 @@ export default function RootLayout({
         className={`${quicksandFont.variable} ${geistMono.variable} antialiased text-color-foreground`}
       >
         {children}
-        <footer className="text-center p-6 mt-4">
+        <footer className="bg-background text-center p-6">
           <div className="space-x-6"></div>
           <p className="text-sm mt-4">computer science go brrr</p>
         </footer>
